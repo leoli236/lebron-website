@@ -1,0 +1,29 @@
+/* ============================================
+   LIGHTBOX — 图片灯箱
+   ============================================ */
+.lightbox {
+  display: none; position: fixed; inset: 0;
+  z-index: 999;
+  background: rgba(0,0,0,.95);
+  backdrop-filter: blur(30px);
+  align-items: center; justify-content: center;
+  cursor: zoom-out;
+}
+.lightbox.open { display: flex; }
+.lightbox img {
+  max-width: 92vw; max-height: 92vh;
+  object-fit: contain; border-radius: 8px;
+  box-shadow: 0 0 80px rgba(201,168,76,.15);
+}
+.lb-close {
+  position: absolute; top: 24px; right: 24px;
+  color: #555; font-size: 28px;
+  cursor: pointer; transition: color .3s; z-index: 2;
+}
+.lb-close:hover { color: var(--gold); }
+.lb-caption {
+  position: absolute; bottom: 30px; left: 50%;
+  transform: translateX(-50%);
+  color: var(--text-dim); font-size: 13px;
+  text-align: center; max-width: 500px;
+}

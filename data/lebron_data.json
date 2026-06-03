@@ -1,0 +1,604 @@
+{
+  "basic": {
+    "full_name": "LeBron Raymone James",
+    "chinese_name": "勒布朗·雷蒙·詹姆斯",
+    "birth_date": "December 30, 1984",
+    "birth_place": "Akron, Ohio",
+    "height": "6'9\" (206cm)",
+    "weight": "250 lbs (113kg)",
+    "nicknames": [
+      "King James",
+      "The Chosen One",
+      "LBJ",
+      "The Akron Hammer"
+    ],
+    "high_school": "St. Vincent-St. Mary High School",
+    "draft": "2003 NBA Draft, Round 1, Pick 1 (Cleveland Cavaliers)",
+    "spouse": "Savannah Brinson (married 2013)",
+    "children": [
+      "Bronny",
+      "Bryce",
+      "Zhuri"
+    ]
+  },
+  "timeline": [
+    {
+      "year": "1984-1999",
+      "title": "阿克伦的贫苦童年",
+      "story": "1984年12月30日，勒布朗出生在俄亥俄州阿克伦市——一个衰败的工业城市。母亲格洛丽亚当时只有16岁，父亲安东尼·麦克莱从未出现在他的生活中。童年的勒布朗和母亲居无定所，频繁搬家，在阿克伦最危险的街区辗转。有时一周要搬三四次家，学校也换了好几所。他经常缺课，学业严重落后。格洛丽亚独自打零工抚养儿子，生活极度拮据。在那些黑暗的日子里，篮球成了小勒布朗唯一的避风港。他在破旧的球场上一遍又一遍地练习，用汗水冲刷掉生活的苦涩。",
+      "struggles": [
+        "单亲家庭，父亲缺席",
+        "频繁搬家，居无定所",
+        "贫困潦倒，食不果腹",
+        "学业落后，经常缺课",
+        "阿克伦治安极差"
+      ],
+      "triumphs": [
+        "发现了对篮球的热爱",
+        "在逆境中锻造了坚韧性格"
+      ],
+      "quote": "我妈妈是我认识的最坚强的女人。她从不让我看到她的眼泪。",
+      "mood": "struggle"
+    },
+    {
+      "year": "1999-2003",
+      "title": "Walker家庭 — 命运的转折",
+      "story": "1999年，格洛丽亚实在无力抚养儿子，做出了一个艰难的决定——将14岁的勒布朗托付给当地Walker家庭。Frankie Walker和他的妻子给了勒布朗一个稳定的家：固定的房间、规律的作息、按时上学。这是勒布朗人生中第一次拥有'家'的感觉。在Walker家，勒布朗不用再担心下一顿饭在哪里，可以把全部精力投入到篮球和学业中。他在圣文森特-圣玛丽高中迅速崛起，带领球队赢得三次州冠军。ESPN开始全国转播他的比赛，《体育画报》把他搬上封面，标题写着'天选之子'。一个来自阿克伦贫民窟的少年，正在改写命运。",
+      "struggles": [
+        "与母亲分离的痛苦",
+        "承受'天才少年'的巨大压力",
+        "外界对他巨额Nike合同的质疑",
+        "高中时就要面对全美的关注"
+      ],
+      "triumphs": [
+        "三次州冠军",
+        "登上Sports Illustrated封面",
+        "ESPN全国转播高中比赛",
+        "被公认为全美最强高中生"
+      ],
+      "quote": "在我最需要帮助的时候，Walker一家给了我一个家。我永远不会忘记。",
+      "mood": "hope"
+    },
+    {
+      "year": "2003-2010",
+      "title": "骑士孤胆英雄 — 一个人扛起一座城",
+      "story": "2003年，18岁的勒布朗以状元秀身份加入家乡克利夫兰骑士队。整个城市的希望都压在这个少年的肩上。他没有让人失望——新秀赛季就场均20.9分，拿下最佳新秀。此后几年，他将骑士从鱼腩球队带到季后赛常客。2007年，22岁的勒布朗几乎以一己之力将骑士带进总决赛，虽然被马刺横扫，但他在东部决赛对阵活塞的第四场独得48分、最后连得25分的表现，至今仍是NBA季后赛最伟大的个人表演之一。然而一个人终究敌不过一支球队。骑士始终无法为勒布朗配备足够强的队友。年复一年，他在季后赛中拼尽全力却倒在通往总冠军的路上。外界开始质疑：没有总冠军，他能被称为'King'吗？",
+      "struggles": [
+        "独自扛起整支球队",
+        "队友实力不足",
+        "连续多年季后赛折戟",
+        "外界对他无法夺冠的质疑",
+        "克利夫兰50年无冠的诅咒"
+      ],
+      "triumphs": [
+        "最佳新秀",
+        "2007年单核带队进总决赛",
+        "对阵活塞48分神迹",
+        "两次常规赛MVP(2009,2010)"
+      ],
+      "quote": "我不是一个得分手，我不是一个传球手，我是一个篮球运动员。",
+      "mood": "struggle"
+    },
+    {
+      "year": "2010-2014",
+      "title": "The Decision — 全民公敌",
+      "story": "2010年夏天，勒布朗做出了一个改变NBA历史的决定——通过全国电视直播宣布加盟迈阿密热火，与韦德、波什组成三巨头。这个被称为'The Decision'的决定引发了铺天盖地的批评。克利夫兰球迷烧毁他的球衣，骑士老板发公开信怒斥他'懦夫'，全美媒体口诛笔伐。勒布朗一夜之间从英雄变成了全民公敌。2011年总决赛，热火在2-1领先的情况下被小牛逆转，勒布朗在关键比赛中表现失常，批评声浪达到顶峰。但真正的王者不会被击倒。2012年，勒布朗带领热火击败雷霆夺冠，终于打破无冠魔咒。2013年，他又在惊心动魄的总决赛中击败马刺卫冕。从全民公敌到两连冠，勒布朗用实力回应了所有质疑。",
+      "struggles": [
+        "全国性的批评和谩骂",
+        "球迷烧球衣的屈辱",
+        "2011年总决赛的崩溃",
+        "被贴上'抱团'标签",
+        "巨大的心理压力"
+      ],
+      "triumphs": [
+        "2012年首冠 + FMVP",
+        "2013年卫冕 + FMVP",
+        "2013年总决赛G6雷·阿伦绝平三分",
+        "两次常规赛MVP(2012,2013)"
+      ],
+      "quote": "我做了对自己最好的决定，我不后悔。每个人都有权选择自己的路。",
+      "mood": "triumph"
+    },
+    {
+      "year": "2014-2018",
+      "title": "回家 — 兑现承诺",
+      "story": "2014年，勒布朗做了一个让所有人震惊的决定——重返克利夫兰。他在《体育画报》上发表了一封信：'我要回家了。'这不再是电视直播的张扬，而是一封情真意切的信。他说：'我在迈阿密赢得了冠军，但我欠克利夫兰一个。'2016年总决赛，骑士面对常规赛73胜的勇士队，1-3落后。所有人都认为结束了。但勒布朗没有放弃。第五场，他在勇士主场砍下41分。第六场，又是41分。第七场，他在最后时刻送出了一记惊天大帽——'The Block'——这一帽，封盖的不只是伊戈达拉的上篮，更是克利夫兰52年的诅咒。骑士完成了NBA总决赛历史上最伟大的逆转。勒布朗跪地痛哭，整个克利夫兰都在哭泣。",
+      "struggles": [
+        "背负'回家'的巨大期望",
+        "2015年总决赛折戟(队友伤病)",
+        "2016年1-3落后的绝境",
+        "身体的透支和伤病",
+        "克利夫兰52年无冠的沉重历史"
+      ],
+      "triumphs": [
+        "2016年1-3逆转勇士夺冠",
+        "总决赛场均29.7分11.3篮板8.9助攻",
+        "'The Block'——NBA历史最伟大封盖",
+        "兑现了对克利夫兰的承诺",
+        "2017年场均三双总决赛"
+      ],
+      "quote": "克利夫兰，这是给你的。我欠你们一个冠军，现在我还了。",
+      "mood": "triumph"
+    },
+    {
+      "year": "2018-2020",
+      "title": "湖人新王 — 在悲伤中前行",
+      "story": "2018年，勒布朗加盟洛杉矶湖人——这支拥有科比、魔术师、贾巴尔传奇的球队。第一年，伤病让他缺席了27场比赛，湖人无缘季后赛。质疑声再次响起：'他老了。'2020年1月26日，科比·布莱恩特在直升机事故中去世。勒布朗在机场接到消息时崩溃痛哭。科比是他的挚友、导师、竞争对手。整个NBA世界陷入悲痛。但勒布朗化悲痛为力量，带领湖人杀入总决赛，以4-2击败热火，为湖人拿下第17座总冠军。赛后他说：'这是献给科比的。'在最深的悲伤中，他完成了最伟大的致敬。",
+      "struggles": [
+        "第一年伤病无缘季后赛",
+        "'他老了'的质疑",
+        "科比去世的巨大打击",
+        "疫情赛季的不确定",
+        "35岁高龄的身体挑战"
+      ],
+      "triumphs": [
+        "2020年为湖人夺冠",
+        "第四座总冠军 + FMVP",
+        "在悲痛中完成对科比的致敬",
+        "成为史上唯一在三支球队都拿FMVP的球员"
+      ],
+      "quote": "Mamba out, but his legacy lives on. This one is for you, Kobe.",
+      "mood": "triumph"
+    },
+    {
+      "year": "2020-2026",
+      "title": "不朽传奇 — 超越篮球",
+      "story": "2023年2月7日，勒布朗超越贾巴尔，成为NBA历史总得分王——40000分的里程碑，前无古人。39岁的他仍在球场上与年轻人同场竞技，场均仍能贡献25+分。但勒布朗的伟大早已超越了篮球。他在阿克伦创办的'I PROMISE'学校，为340多名贫困家庭的孩子提供免费教育、免费餐食、免费自行车，甚至为家长提供就业培训。他的基金会承诺：每个从I PROMISE毕业的孩子都能获得全额大学奖学金。他说：'我不只是一个篮球运动员。我要用我的平台改变世界。'从阿克伦贫民窟到NBA王座，从被遗弃的孩子到改变无数人命运的领袖——勒布朗·詹姆斯用他的人生证明：出身不决定命运，困难打不倒真正强大的灵魂。",
+      "struggles": [
+        "年龄增长带来的体力下降",
+        "伤病增多",
+        "场外争议不断",
+        "维持竞技水平的巨大压力"
+      ],
+      "triumphs": [
+        "NBA历史总得分王",
+        "40000分里程碑",
+        "I PROMISE学校改变无数人生",
+        "成为社会正义的代言人",
+        "四枚奥运金牌"
+      ],
+      "quote": "我不只是一个篮球运动员。我要用我的平台改变世界。我来自阿克伦。",
+      "mood": "legacy"
+    }
+  ],
+  "stats": {
+    "championships": 4,
+    "mvp": 4,
+    "finals_mvp": 4,
+    "all_star": 20,
+    "total_points": 42184,
+    "ppg_career": 27.1,
+    "rpg_career": 7.5,
+    "apg_career": 7.4,
+    "spg_career": 1.5,
+    "games_played": 1562,
+    "seasons": 22,
+    "olympic_gold": 4,
+    "rookie_of_year": true,
+    "scoring_title": 1,
+    "assists_title": 0,
+    "all_nba_first": 13,
+    "all_defensive_first": 5
+  },
+  "quotes": [
+    {
+      "text": "I'm going to use all my tools, my God-given ability, and make the best life I can with it.",
+      "context": "关于天赋与努力"
+    },
+    {
+      "text": "You have to be able to accept failure to get better.",
+      "context": "关于失败与成长"
+    },
+    {
+      "text": "I like criticism. It makes you strong.",
+      "context": "关于外界质疑"
+    },
+    {
+      "text": "In Northeast Ohio, nothing is given. Everything is earned. You work for what you have.",
+      "context": "回归骑士时"
+    },
+    {
+      "text": "I'm not a role model... I'm a real model.",
+      "context": "关于榜样"
+    },
+    {
+      "text": "Dream as if you'll live forever. Live as if you'll die today.",
+      "context": "人生态度"
+    },
+    {
+      "text": "I don't want to be the next Michael Jordan. I only want to be LeBron James.",
+      "context": "关于比较"
+    },
+    {
+      "text": "Commitment is a big part of what I am and what I believe. How committed are you to winning?",
+      "context": "关于信念"
+    },
+    {
+      "text": "Akron, Ohio is my home. It will always be remembered. I don't ever want to be forgotten.",
+      "context": "关于故乡"
+    },
+    {
+      "text": "Out of all the things I've done in my life, the most important thing is being a father.",
+      "context": "关于家庭"
+    }
+  ],
+  "scoring_data": [
+    {
+      "year": 2004,
+      "ppg": 20.9,
+      "total": 1654
+    },
+    {
+      "year": 2005,
+      "ppg": 27.2,
+      "total": 2175
+    },
+    {
+      "year": 2006,
+      "ppg": 31.4,
+      "total": 2478
+    },
+    {
+      "year": 2007,
+      "ppg": 27.3,
+      "total": 2132
+    },
+    {
+      "year": 2008,
+      "ppg": 30.0,
+      "total": 2258
+    },
+    {
+      "year": 2009,
+      "ppg": 28.4,
+      "total": 2304
+    },
+    {
+      "year": 2010,
+      "ppg": 29.7,
+      "total": 2111
+    },
+    {
+      "year": 2011,
+      "ppg": 27.1,
+      "total": 2145
+    },
+    {
+      "year": 2012,
+      "ppg": 26.8,
+      "total": 1743
+    },
+    {
+      "year": 2013,
+      "ppg": 26.8,
+      "total": 2036
+    },
+    {
+      "year": 2014,
+      "ppg": 25.3,
+      "total": 1743
+    },
+    {
+      "year": 2015,
+      "ppg": 25.3,
+      "total": 1920
+    },
+    {
+      "year": 2016,
+      "ppg": 26.4,
+      "total": 1954
+    },
+    {
+      "year": 2017,
+      "ppg": 27.5,
+      "total": 2027
+    },
+    {
+      "year": 2018,
+      "ppg": 28.9,
+      "total": 1505
+    },
+    {
+      "year": 2019,
+      "ppg": 25.3,
+      "total": 1698
+    },
+    {
+      "year": 2020,
+      "ppg": 25.0,
+      "total": 1578
+    },
+    {
+      "year": 2021,
+      "ppg": 30.3,
+      "total": 1695
+    },
+    {
+      "year": 2022,
+      "ppg": 28.9,
+      "total": 1590
+    },
+    {
+      "year": 2023,
+      "ppg": 25.7,
+      "total": 1576
+    },
+    {
+      "year": 2024,
+      "ppg": 24.4,
+      "total": 1822
+    },
+    {
+      "year": 2025,
+      "ppg": 23.5,
+      "total": 1600
+    }
+  ],
+  "milestones": [
+    {
+      "year": 2003,
+      "event": "NBA状元秀",
+      "points": 0
+    },
+    {
+      "year": 2004,
+      "event": "最佳新秀",
+      "points": 1654
+    },
+    {
+      "year": 2007,
+      "event": "首次总决赛",
+      "points": 8539
+    },
+    {
+      "year": 2009,
+      "event": "首座MVP",
+      "points": 12993
+    },
+    {
+      "year": 2012,
+      "event": "首冠 + FMVP",
+      "points": 19045
+    },
+    {
+      "year": 2013,
+      "event": "卫冕冠军",
+      "points": 21081
+    },
+    {
+      "year": 2016,
+      "event": "1-3逆转勇士",
+      "points": 26833
+    },
+    {
+      "year": 2018,
+      "event": "历史最年轻30000分",
+      "points": 30000
+    },
+    {
+      "year": 2020,
+      "event": "为湖人夺冠",
+      "points": 34241
+    },
+    {
+      "year": 2023,
+      "event": "超越贾巴尔成历史得分王",
+      "points": 38390
+    },
+    {
+      "year": 2024,
+      "event": "40000分里程碑",
+      "points": 40000
+    },
+    {
+      "year": 2026,
+      "event": "传奇仍在继续",
+      "points": 42184
+    }
+  ],
+  "images": {
+    "childhood": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/b5/LeBron_James_Paris_2009.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/cf/LeBron_James_crop.jpg"
+    ],
+    "high_school": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e2/LeBron_vs_Jarvis_Hayes.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/05/Mavs_Cavs_March_2005.jpg"
+    ],
+    "draft_2003": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/05/Mavs_Cavs_March_2005.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e7/LeBron_James_1.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d9/Lebron_james_2008z.jpg"
+    ],
+    "cleveland_first": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fd/LeBron_James_18112009_1.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/3d/LeBron_James_Cavaliers_27042008.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/f1/Hawks_at_Cavs_pregame_Apr_2010.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/5b/LeBron_James_Wiz.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/15/LeBron_against_the_wizards.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/51/LeBronJamesBall.jpg"
+    ],
+    "the_decision": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/d5/LeBron_James_Magic_preseason.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/da/Quentin_Richardson_defends_vs_LeBron_James_December_2011_Heat_%40_Magic_011.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/89/LeBronJamesDunkingHeat.jpg"
+    ],
+    "miami": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/89/LeBronJamesDunkingHeat.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/b9/LeBron_James_Dec_2012_3.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/1d/Miami_Heat_Championship_Parade_2012_3.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/bd/LeBron_James_Marcin_Gortat.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/3f/LeBron_James_at_GSW.jpg"
+    ],
+    "cleveland_return": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/c0/LeBron_James_2018_Cleveland_Cavaliers.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/3b/LeBron_James_Layup_%28Cleveland_vs_Brooklyn_2018%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/7a/LeBron_James_%2851959977144%29_%28cropped2%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d1/LeBron_James_Matthew_Dellavedova.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/ce/LeBron_James_%281%29.jpg"
+    ],
+    "2016_championship": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/9c/LeBron_James_%2827236203623%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/22/LeBron_James_%2827570494240%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/50/LeBron_James_%2827570523100%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/LeBron_James_%2827570517450%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/76/LeBron_James_%2827813837756%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/54/LeBron_James_%2827848128205%29.jpg"
+    ],
+    "lakers": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a7/LeBron_James_Lakers.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/b5/LeBron_James_Bradley_Beal_%28cropped%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/bf/LeBron_James_-_51959723161_%28cropped%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/4a/LeBron_James_Carmelo_Anthony_%28LA_Lakers%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/13/Lebron_James_2022small.jpg"
+    ],
+    "scoring_record": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/98/LeBron_James_at_the_2022_NBA_All-Star_Game.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/53/LeBron_James%2C_Olympic_Games_2024.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/23/LeBron_James%2C_Paris_2024.jpg"
+    ],
+    "community": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/b5/LeBron_James_Paris_2009.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/99/LeBron_James%27_pregame_ritual.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/cf/LebronFT_%28cropped%29.jpg"
+    ],
+    "fan_art": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/15/LeBron_James%2C_Anthony_Davis_and%2C_Donovan_Mitchell.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/2e/LeBron_James_and_Joel_Embiid%2C_Olympic_Games_2024.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d3/LeBron_James_%2815847318851%29.jpg"
+    ]
+  },
+  "rivals": [
+    {
+      "name": "Kobe Bryant",
+      "chinese": "科比·布莱恩特",
+      "era": "2003-2016",
+      "relationship": "亦敌亦友 · 相互尊重",
+      "story": "科比是勒布朗最伟大的对手，也是他最尊敬的前辈。两人在场上针锋相对，2009年圣诞大战的对决至今被人津津乐道。但在场下，科比是勒布朗的导师和朋友。2020年科比去世后，勒布朗带领湖人夺冠，赛后他说：这是献给科比的。他们的竞争不是仇恨，而是两个时代最伟大球员之间的惺惺相惜。",
+      "battles": [
+        "2009圣诞大战: 湖人vs骑士",
+        "2012全明星赛: 同队搭档",
+        "2016年科比退役赛季: 最后对决",
+        "2020年湖人夺冠: 致敬科比"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/LeBron_James_and_Joel_Embiid%2C_Olympic_Games_2024.jpg",
+      "quote": "Mamba out, but his legacy lives on."
+    },
+    {
+      "name": "Stephen Curry",
+      "chinese": "斯蒂芬·库里",
+      "era": "2015-至今",
+      "relationship": "宿敌 · 伟大相互成就",
+      "story": "库里和勒布朗的对决定义了2015-2018年的NBA。骑士vs勇士连续四年总决赛对决，是NBA历史上最伟大的宿敌对决之一。2016年勒布朗1-3逆转73胜勇士，被视为NBA历史上最伟大的总决赛表现。他们的竞争让彼此都变得更好。",
+      "battles": [
+        "2015总决赛: 勇士4-2骑士",
+        "2016总决赛: 骑士1-3逆转勇士",
+        "2017总决赛: 勇士4-1骑士",
+        "2018总决赛: 勇士4-0骑士"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/LeBron_James_at_GSW.jpg",
+      "quote": "我们互相成就了彼此的伟大。"
+    },
+    {
+      "name": "Kevin Durant",
+      "chinese": "凯文·杜兰特",
+      "era": "2012-至今",
+      "relationship": "最强对手 · 棋逢对手",
+      "story": "杜兰特是勒布朗在小前锋位置上最强的对手。2012年总决赛，勒布朗的热火击败了杜兰特的雷霆。2017年杜兰特加盟勇士后，总决赛对决变得更加激烈。两人的对决是纯粹的篮球较量：两个时代最好的得分手，在最大的舞台上一决高下。",
+      "battles": [
+        "2012总决赛: 热火4-1雷霆",
+        "2017总决赛: 勇士4-1骑士 (杜兰特FMVP)",
+        "2018总决赛: 勇士4-0骑士",
+        "多次全明星对决"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/bd/LeBron_James_Marcin_Gortat.jpg",
+      "quote": "杜兰特是我面对过的最强对手之一。"
+    },
+    {
+      "name": "Tim Duncan",
+      "chinese": "蒂姆·邓肯",
+      "era": "2003-2016",
+      "relationship": "沉默的对手 · 互相尊重",
+      "story": "邓肯是勒布朗职业生涯初期最强大的对手。2007年总决赛，邓肯的马刺4-0横扫勒布朗的骑士，赛后邓肯对年轻的勒布朗说：这个联盟很快就是你的了。这句话成为了预言。两个不同时代的基石型球员，用沉默的方式互相尊重。",
+      "battles": [
+        "2007总决赛: 马刺4-0骑士",
+        "2013总决赛: 热火4-3马刺",
+        "2014总决赛: 马刺4-1热火",
+        "多次季后赛交锋"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/54/LeBron_James_%2827848128205%29.jpg",
+      "quote": "邓肯对我说：这个联盟很快就是你的了。"
+    },
+    {
+      "name": "Paul Pierce",
+      "chinese": "保罗·皮尔斯",
+      "era": "2008-2014",
+      "relationship": "东部宿敌 · 火药味十足",
+      "story": "皮尔斯和凯尔特人是勒布朗在东部最强大的对手。2008年和2010年凯尔特人两次击败骑士，直接导致了The Decision。2012年东部决赛，勒布朗在第六场砍下45分，完成了对凯尔特人的复仇。激烈的对抗锻造了勒布朗钢铁般的意志。",
+      "battles": [
+        "2008东部半决赛: 凯尔特人4-3骑士",
+        "2010东部半决赛: 凯尔特人4-2骑士",
+        "2012东部决赛: 热火4-3凯尔特人",
+        "2014首轮: 热火4-0篮网"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/LeBron_James_18112009_1.jpg",
+      "quote": "皮尔斯让我明白了什么是季后赛的残酷。"
+    },
+    {
+      "name": "Dirk Nowitzki",
+      "chinese": "德克·诺维茨基",
+      "era": "2011",
+      "relationship": "最痛的教训 · 最深的尊重",
+      "story": "2011年总决赛是勒布朗职业生涯最黑暗的时刻。热火被小牛逆转，勒布朗表现失常。诺维茨基用标志性的单脚后仰跳投，给勒布朗上了最深刻的一课：冠军不是靠天赋堆积出来的，而是靠意志和团队。这次失败成为了勒布朗职业生涯的转折点。",
+      "battles": [
+        "2011总决赛: 小牛4-2热火",
+        "2011年勒布朗场均仅17.8分",
+        "诺维茨基场均26分获FMVP"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/LeBron_James_Magic_preseason.jpg",
+      "quote": "2011年的失败教会了我什么是真正的冠军心态。"
+    },
+    {
+      "name": "Nikola Jokic",
+      "chinese": "尼古拉·约基奇",
+      "era": "2020-至今",
+      "relationship": "新时代的王者 · 传承与碰撞",
+      "story": "约基奇是勒布朗职业生涯晚期遇到的最强对手。2023年西部决赛，约基奇率领掘金4-0横扫湖人，勒布朗在赛后说：他是我见过最全面的中锋。约基奇用他独特的打法——传球、三分、背身单打——重新定义了中锋这个位置。勒布朗从约基奇身上看到了篮球的未来，而约基奇从勒布朗身上学到了如何成为领袖。他们的对决不是新旧交替的告别，而是两个时代最聪明球员的智慧碰撞。",
+      "battles": [
+        "2023西部决赛: 掘金4-0湖人",
+        "2024赛季: 多次常规赛对决",
+        "约基奇场均三双的全能表现"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/LeBron_James_and_Joel_Embiid%2C_Olympic_Games_2024.jpg",
+      "quote": "约基奇是我见过最全面的中锋，他改变了篮球。"
+    },
+    {
+      "name": "Shai Gilgeous-Alexander",
+      "chinese": "谢伊·吉尔杰斯-亚历山大",
+      "era": "2022-至今",
+      "relationship": "新王登基 · 传承火炬",
+      "story": "亚历山大是NBA新一代的超级巨星，2024-25赛季带领雷霆成为西部第一。勒布朗与亚历山大的对决，象征着NBA权力的交接。亚历山大的中距离跳投和关键时刻的表现，让人想起了年轻时的勒布朗。2024年全明星赛上，两人同场竞技，赛后亚历山大说：勒布朗是我从小看到大的偶像，能和他同场竞技是梦想成真。勒布朗说：他准备好了，火炬会传给对的人。",
+      "battles": [
+        "2024全明星赛: 同场竞技",
+        "2024-25赛季: 雷霆崛起",
+        "亚历山大场均30+得分王"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/LeBron_James%2C_Olympic_Games_2024.jpg",
+      "quote": "他准备好了，火炬会传给对的人。"
+    },
+    {
+      "name": "Giannis Antetokounmpo",
+      "chinese": "扬尼斯·阿德托昆博",
+      "era": "2017-至今",
+      "relationship": "希腊怪物 · 互相激励",
+      "story": "字母哥是勒布朗在东部遇到的最强后辈。2021年字母哥带领雄鹿夺冠，完成了勒布朗式的逆袭——从被质疑到证明自己。两人的对决充满了力量与速度的碰撞。字母哥说：勒布朗告诉我，冠军不是靠天赋，而是靠牺牲。2023年全明星赛，两人作为队长选人对决，展现了新一代领袖的风采。",
+      "battles": [
+        "2021全明星赛: 队长对决",
+        "2023全明星赛: 再次对决",
+        "字母哥2021年夺冠: 完成逆袭"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/bf/LeBron_James_-_51959723161_%28cropped%29.jpg",
+      "quote": "勒布朗告诉我，冠军不是靠天赋，而是靠牺牲。"
+    }
+  ]
+}

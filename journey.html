@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>体验旅程 — 最长的河</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/pages/journey.css">
+</head>
+<body>
+
+<div class="top-bar"><div class="top-fill" id="pf"></div></div>
+<a href="index.html" class="back">← 首页</a>
+<div class="ch-num" id="cn"></div>
+<button class="sound-toggle" id="sound-btn" onclick="toggleSound()">🔊</button>
+
+<!-- INTRO -->
+<div class="scene intro active" id="s-intro">
+  <h1>THE JOURNEY</h1>
+  <div class="sub">沉浸式互动体验</div>
+  <div class="desc">你将亲身经历勒布朗·詹姆斯的每一个关键时刻。<br>面对他面对的选择，感受他的挣扎与荣耀。<br>每一个决定，都将塑造你对"伟大"的理解。</div>
+  <button class="btn" onclick="start()">开始旅程 →</button>
+</div>
+
+<!-- CHAPTERS -->
+<div id="chs"></div>
+
+<!-- FINAL -->
+<div class="scene final" id="s-final">
+  <h1>你走完了最长的河</h1>
+  <div class="f-sub">THE JOURNEY COMPLETE</div>
+  <div class="f-score" id="fs">0%</div>
+  <div class="f-label">与勒布朗的共鸣指数</div>
+  <div class="f-text" id="ft"></div>
+  <div class="f-choices" id="fc"></div>
+  <div class="f-actions">
+    <button class="btn-outline" onclick="downloadShareCard()">📥 保存分享卡片</button>
+    <button class="btn-outline" onclick="location.href='index.html'">← 回到首页</button>
+  </div>
+</div>
+
+<!-- EMOTION -->
+<div class="emo-bar">
+  <span class="el">情感曲线</span>
+  <canvas id="ec"></canvas>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/sound.js"></script>
+<script src="js/share-card.js"></script>
+<script src="js/pages/journey.js"></script>
+</body>
+</html>

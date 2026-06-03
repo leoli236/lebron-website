@@ -1,0 +1,70 @@
+/* ============================================
+   RIVALS — 宿敌详情页独有样式
+   ============================================ */
+
+/* HERO */
+.hero {
+  min-height: 100vh; display: flex; flex-direction: column;
+  align-items: center; justify-content: center; text-align: center; padding: 40px;
+  background: radial-gradient(ellipse at 50% 50%, rgba(201,168,76,.04) 0%, transparent 60%);
+}
+.hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(36px,7vw,72px); color: var(--gold); margin-bottom: 10px; }
+.hero .sub { color: #555; font-size: 14px; letter-spacing: 6px; margin-bottom: 8px; }
+.hero .desc { color: #444; font-size: 15px; max-width: 600px; line-height: 2; margin-bottom: 40px; }
+.hero .scroll { color: #333; font-size: 10px; letter-spacing: 4px; margin-top: 40px; }
+
+/* RIVAL DETAIL */
+.rival-detail { padding: 100px 40px; position: relative; }
+.rival-detail:nth-child(even) { background: rgba(255,255,255,.01); }
+.rd-inner { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 350px 1fr; gap: 50px; align-items: start; }
+.rd-img { width: 100%; border-radius: 16px; overflow: hidden; cursor: zoom-in; position: relative; }
+.rd-img img { width: 100%; height: 400px; object-fit: cover; transition: transform .6s; }
+.rd-img:hover img { transform: scale(1.05); }
+.rd-img .rd-overlay {
+  position: absolute; inset: 0;
+  background: linear-gradient(transparent 60%, rgba(0,0,0,.6));
+  display: flex; align-items: flex-end; padding: 20px;
+  opacity: 0; transition: opacity .3s;
+}
+.rd-img:hover .rd-overlay { opacity: 1; }
+.rd-overlay span { font-size: 12px; color: var(--gold); }
+.rd-content { padding-top: 20px; }
+.rd-era { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--gold); letter-spacing: 3px; margin-bottom: 8px; }
+.rd-name { font-family: 'Playfair Display', serif; font-size: 32px; color: var(--gold); margin-bottom: 4px; }
+.rd-en { font-size: 13px; color: #444; margin-bottom: 10px; }
+.rd-rel { font-size: 14px; color: #888; font-weight: 600; margin-bottom: 16px; }
+.rd-story { font-size: 14px; line-height: 2; color: #777; margin-bottom: 20px; }
+.rd-battles { margin-bottom: 20px; }
+.rd-battles h4 { font-size: 11px; color: var(--gold); letter-spacing: 2px; text-transform: uppercase; margin-bottom: 10px; }
+.rd-battle {
+  display: flex; align-items: center; gap: 12px;
+  padding: 10px 14px; background: rgba(201,168,76,.02);
+  border: 1px solid rgba(201,168,76,.06); border-radius: 10px;
+  margin-bottom: 6px; transition: all .3s;
+}
+.rd-battle:hover { border-color: rgba(201,168,76,.2); background: rgba(201,168,76,.04); }
+.rd-battle .rb-year { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--gold); min-width: 40px; }
+.rd-battle .rb-text { font-size: 13px; color: #888; }
+.rd-quote { font-style: italic; font-size: 14px; color: rgba(201,168,76,.5); padding-left: 16px; border-left: 2px solid rgba(201,168,76,.15); margin-top: 16px; }
+
+/* RIVAL NAV */
+.rival-nav {
+  position: fixed; right: 20px; top: 50%;
+  transform: translateY(-50%); z-index: 100;
+  display: flex; flex-direction: column; gap: 8px;
+}
+.rival-nav a { width: 8px; height: 8px; border-radius: 50%; background: #333; transition: all .3s; }
+.rival-nav a:hover, .rival-nav a.active { background: var(--gold); transform: scale(1.5); }
+
+/* FOOTER */
+footer { padding: 60px 40px; text-align: center; background: #030406; }
+footer .title { font-family: 'Playfair Display', serif; font-size: 24px; color: var(--gold); margin-bottom: 12px; }
+footer .text { color: #444; font-size: 14px; max-width: 500px; line-height: 1.8; margin: 0 auto; }
+footer .back { display: inline-block; margin-top: 24px; color: var(--gold); text-decoration: none; font-size: 12px; letter-spacing: 2px; }
+
+/* RESPONSIVE */
+@media(max-width:768px) {
+  .rd-inner { grid-template-columns: 1fr; }
+  .rd-img img { height: 250px; }
+  .rival-nav { display: none; }
+}

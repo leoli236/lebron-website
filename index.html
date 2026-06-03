@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>最长的河 — KING JAMES</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/nav.css">
+<link rel="stylesheet" href="css/lightbox.css">
+<link rel="stylesheet" href="css/pages/index.css">
+</head>
+<body>
+
+<canvas id="river-canvas"></canvas>
+
+<nav class="nav" id="nav">
+  <div class="logo">最长的河</div>
+  <div class="links">
+    <a href="#river">旅程</a>
+    <a href="rivals.html">对手</a>
+    <a href="gallery.html">图集</a>
+    <a href="stats.html">数据</a>
+    <a href="#quotes">语录</a>
+    <a href="#journey" style="color:var(--gold)">开始体验</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <svg class="hero-river-svg" viewBox="0 0 1440 900" preserveAspectRatio="none">
+    <path class="hero-river-path" d="M-50,800 C200,750 300,600 400,550 S600,500 720,450 S900,350 1000,300 S1200,200 1500,150" />
+    <path class="hero-river-path hero-river-path-2" d="M-50,850 C150,800 350,650 500,600 S700,530 800,480 S1000,380 1100,330 S1300,230 1500,200" />
+  </svg>
+  <div class="pre">THE LONGEST RIVER</div>
+  <h1>最长的河</h1>
+  <div class="sub">LEBRON RAYMONE JAMES</div>
+  <div class="line"></div>
+  <div class="scroll-text">SCROLL TO FOLLOW THE RIVER</div>
+</section>
+
+<!-- COUNTER -->
+<div class="counter-strip">
+  <div class="ci"><div class="big" data-target="4">0</div><div class="small">总冠军</div></div>
+  <div class="ci"><div class="big" data-target="4">0</div><div class="small">MVP</div></div>
+  <div class="ci"><div class="big" data-target="42184">0</div><div class="small">总得分</div></div>
+  <div class="ci"><div class="big" data-target="20">0</div><div class="small">全明星</div></div>
+  <div class="ci"><div class="big" data-target="22">0</div><div class="small">赛季</div></div>
+</div>
+
+<!-- RIVER JOURNEY -->
+<section class="river-section" id="river">
+  <div class="section-head"><h2 class="fade-in">河流的旅程</h2><p class="fade-in">每一个节点，都是一段传奇</p></div>
+  <div class="river-path">
+    <svg class="river-svg-line" id="river-svg" preserveAspectRatio="none">
+      <defs>
+        <linearGradient id="riverGrad" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="transparent"/>
+          <stop offset="10%" stop-color="#8B7532"/>
+          <stop offset="50%" stop-color="#C9A84C"/>
+          <stop offset="90%" stop-color="#8B7532"/>
+          <stop offset="100%" stop-color="transparent"/>
+        </linearGradient>
+        <filter id="riverGlow">
+          <feGaussianBlur stdDeviation="4" result="blur"/>
+          <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+      </defs>
+      <path class="river-flow-line" fill="none" stroke="url(#riverGrad)" stroke-width="2" filter="url(#riverGlow)"/>
+      <path class="river-flow-fill" fill="none" stroke="rgba(201,168,76,.15)" stroke-width="40" stroke-linecap="round"/>
+    </svg>
+    <div id="river-nodes"></div>
+  </div>
+</section>
+
+<!-- RIVALS -->
+<section class="rivals-section" id="rivals">
+  <div class="section-head"><h2 class="fade-in">伟大相互成就</h2><p class="fade-in">对手铸就传奇</p></div>
+  <div class="rivals-grid" id="rivals-grid"></div>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery-section" id="gallery">
+  <div class="section-head"><h2 class="fade-in">影像记忆</h2><p class="fade-in">点击放大</p></div>
+  <div class="gallery-filters" id="gf"></div>
+  <div class="gallery-grid" id="gg"></div>
+</section>
+
+<!-- QUOTES -->
+<section class="quotes-section" id="quotes">
+  <div class="section-head"><h2 class="fade-in">他的话语</h2></div>
+  <div class="quotes-wall" id="qw"></div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section" id="journey">
+  <h2 class="fade-in">亲身体验他的旅程</h2>
+  <p class="fade-in">面对他面对的每一个选择</p>
+  <a href="journey.html" class="cta-btn fade-in">开始体验 →</a>
+</section>
+
+<footer>
+  <div class="promise">🎓 I PROMISE SCHOOL</div>
+  <div class="pd">为340多名贫困家庭的孩子提供免费教育和全额大学奖学金</div>
+  <div class="bt">© 2026 KING JAMES · FAN SITE</div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/nav.js"></script>
+<script src="js/lightbox.js"></script>
+<script src="js/particles.js"></script>
+<script src="js/counter.js"></script>
+<script src="js/scroll-reveal.js"></script>
+<script src="js/pages/index.js"></script>
+<script src="js/river.js"></script>
+</body>
+</html>
