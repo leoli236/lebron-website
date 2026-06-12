@@ -4,22 +4,61 @@
 
 /* HERO */
 .hero {
-  min-height: 100vh; display: flex; flex-direction: column;
+  min-height: 86dvh; display: flex; flex-direction: column;
   align-items: center; justify-content: center; text-align: center; padding: 40px;
-  background: radial-gradient(ellipse at 50% 50%, rgba(201,168,76,.04) 0%, transparent 60%);
+  background:
+    linear-gradient(rgba(6,8,12,.74), rgba(6,8,12,.96)),
+    url("https://upload.wikimedia.org/wikipedia/commons/3/3f/LeBron_James_at_GSW.jpg") center / cover no-repeat;
 }
-.hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(36px,7vw,72px); color: var(--gold); margin-bottom: 10px; }
-.hero .sub { color: #555; font-size: 14px; letter-spacing: 6px; margin-bottom: 8px; }
-.hero .desc { color: #444; font-size: 15px; max-width: 600px; line-height: 2; margin-bottom: 40px; }
-.hero .scroll { color: #333; font-size: 10px; letter-spacing: 4px; margin-top: 40px; }
+.hero h1 { font-family: var(--font-display); font-size: clamp(42px,7vw,82px); color: var(--gold); margin-bottom: 10px; }
+.hero .sub { color: rgba(201,168,76,.72); font-family: var(--font-mono); font-size: 13px; letter-spacing: 6px; margin-bottom: 8px; }
+.hero .desc { color: var(--text-dim); font-size: 15px; max-width: 650px; line-height: 2; margin-bottom: 28px; }
+.hero .scroll { color: rgba(201,168,76,.42); font-size: 10px; letter-spacing: 4px; margin-top: 28px; }
 
 /* RIVAL DETAIL */
 .rival-detail { padding: 100px 40px; position: relative; }
-.rival-detail:nth-child(even) { background: rgba(255,255,255,.01); }
-.rd-inner { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 350px 1fr; gap: 50px; align-items: start; }
-.rd-img { width: 100%; border-radius: 16px; overflow: hidden; cursor: zoom-in; position: relative; }
-.rd-img img { width: 100%; height: 400px; object-fit: cover; transition: transform .6s; }
+.rival-detail:nth-child(even) { background: rgba(255,255,255,.012); }
+.rd-inner { max-width: 1160px; margin: 0 auto; display: grid; grid-template-columns: minmax(280px, 420px) 1fr; gap: 52px; align-items: stretch; }
+.rd-img { width: 100%; border-radius: 8px; overflow: hidden; cursor: zoom-in; position: relative; border: 1px solid var(--line); background: var(--bg-deep); }
+.rd-img::before {
+  content: attr(data-file);
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  z-index: 2;
+  padding: 6px 10px;
+  background: rgba(3,4,6,.72);
+  border: 1px solid rgba(201,168,76,.22);
+  color: var(--gold);
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+.rd-img img { width: 100%; height: 100%; min-height: 480px; object-fit: cover; transition: transform .6s; filter: contrast(1.04) saturate(.92); }
 .rd-img:hover img { transform: scale(1.05); }
+.rd-fallback {
+  min-height: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  color: var(--gold);
+  font-family: var(--font-display);
+  font-size: clamp(26px,4vw,40px);
+  text-align: center;
+  background:
+    radial-gradient(circle at 50% 45%, rgba(201,168,76,.1), transparent 42%),
+    linear-gradient(135deg, rgba(201,168,76,.06), rgba(255,255,255,.02));
+}
+.rd-fallback span {
+  display: block;
+  margin-top: 10px;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 2px;
+}
 .rd-img .rd-overlay {
   position: absolute; inset: 0;
   background: linear-gradient(transparent 60%, rgba(0,0,0,.6));
@@ -29,17 +68,18 @@
 .rd-img:hover .rd-overlay { opacity: 1; }
 .rd-overlay span { font-size: 12px; color: var(--gold); }
 .rd-content { padding-top: 20px; }
-.rd-era { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--gold); letter-spacing: 3px; margin-bottom: 8px; }
-.rd-name { font-family: 'Playfair Display', serif; font-size: 32px; color: var(--gold); margin-bottom: 4px; }
-.rd-en { font-size: 13px; color: #444; margin-bottom: 10px; }
+.rd-index { font-family: var(--font-mono); color: rgba(201,168,76,.45); font-size: 12px; letter-spacing: 3px; margin-bottom: 16px; }
+.rd-era { font-family: var(--font-mono); font-size: 11px; color: var(--gold); letter-spacing: 3px; margin-bottom: 8px; }
+.rd-name { font-family: var(--font-display); font-size: clamp(30px,4vw,46px); color: var(--gold); margin-bottom: 4px; }
+.rd-en { font-size: 13px; color: var(--text-muted); margin-bottom: 10px; }
 .rd-rel { font-size: 14px; color: #888; font-weight: 600; margin-bottom: 16px; }
 .rd-story { font-size: 14px; line-height: 2; color: #777; margin-bottom: 20px; }
 .rd-battles { margin-bottom: 20px; }
 .rd-battles h4 { font-size: 11px; color: var(--gold); letter-spacing: 2px; text-transform: uppercase; margin-bottom: 10px; }
 .rd-battle {
   display: flex; align-items: center; gap: 12px;
-  padding: 10px 14px; background: rgba(201,168,76,.02);
-  border: 1px solid rgba(201,168,76,.06); border-radius: 10px;
+  padding: 11px 14px; background: rgba(201,168,76,.028);
+  border: 1px solid rgba(201,168,76,.08); border-radius: 6px;
   margin-bottom: 6px; transition: all .3s;
 }
 .rd-battle:hover { border-color: rgba(201,168,76,.2); background: rgba(201,168,76,.04); }
@@ -65,6 +105,8 @@ footer .back { display: inline-block; margin-top: 24px; color: var(--gold); text
 /* RESPONSIVE */
 @media(max-width:768px) {
   .rd-inner { grid-template-columns: 1fr; }
-  .rd-img img { height: 250px; }
+  .rd-img img, .rd-fallback { min-height: 260px; height: 260px; }
   .rival-nav { display: none; }
+  .hero { min-height: 72dvh; padding: 96px 22px 46px; }
+  .rival-detail { padding: 58px 22px; }
 }

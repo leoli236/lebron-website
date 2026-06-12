@@ -11,7 +11,7 @@ LeBronData.load().then(function(d) {
   document.getElementById('river-nodes').innerHTML = d.timeline.map(function(item, i) {
     var m = item.mood || 'triumph';
     var cat = imgMap[i] || '';
-    var imgSrc = (imgs[cat] || [])[0] || '';
+    var imgSrc = item.sceneImage || (imgs[cat] || [])[0] || '';
     var moodL = { struggle: '挣扎', hope: '希望', triumph: '荣耀', legacy: '传奇' }[m];
     var imgHTML = imgSrc
       ? '<img class="node-img" src="' + imgSrc + '" alt="' + item.title + '" loading="lazy" onclick="event.stopPropagation();openLB(\'' + imgSrc + '\',\'' + item.title + '\')" onerror="this.outerHTML=\'<div class=node-img-fallback>' + moodEmoji[m] + '</div>\'">'
@@ -19,12 +19,14 @@ LeBronData.load().then(function(d) {
     return '<div class="river-node">' +
       '<div class="node-dot"></div>' +
       '<div class="node-year">' + item.year + '</div>' +
-      '<div class="node-card"><div class="node-card-inner">' +
+      '<div class="node-card"><div class="node-card-inner" data-chapter="' + (item.chapterLabel || '河流章节') + '">' +
         imgHTML +
         '<div class="node-body">' +
           '<div class="node-mood m-' + m + '">' + moodL + '</div>' +
           '<div class="node-title">' + item.title + '</div>' +
+          '<div class="node-hook">' + (item.shortHook || '') + '</div>' +
           '<div class="node-excerpt">' + item.story.substring(0, 130) + '...</div>' +
+          '<div class="node-moment">' + (item.keyMoment || item.year) + '</div>' +
           '<div class="node-quote">"' + item.quote + '"</div>' +
           '<div class="node-expand" id="ne-' + i + '">' +
             '<div class="node-full">' + item.story + '</div>' +
@@ -73,10 +75,11 @@ LeBronData.load().then(function(d) {
     var list = f === 'all' ? allI : allI.filter(function(i) { return i.c === f; });
     document.getElementById('gg').innerHTML = list.map(function(img, i) {
       return '<div class="gi ' + (i % 5 === 0 ? 'wide' : '') + '" onclick="openLB(\'' + img.u + '\',\'LeBron James\')">' +
-        '<img src="' + img.u + '" alt="" loading="lazy" onerror="this.parentElement.style.display=\'none\'">' +
+      '<img src="' + img.u + '" alt="" loading="lazy" onerror="this.parentElement.style.display=\'none\'">' +
         '<div class="gi-ov"><span>🔍</span></div></div>';
     }).join('');
   }
+  window.renderG = renderG;
   document.getElementById('gf').innerHTML = gcats.map(function(c) {
     return '<button class="' + (c.k === 'all' ? 'active' : '') + '" onclick="document.querySelectorAll(\'#gf button\').forEach(function(b){b.classList.remove(\'active\')});this.classList.add(\'active\');renderG(\'' + c.k + '\')">' + c.l + '</button>';
   }).join('');

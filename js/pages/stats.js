@@ -48,6 +48,12 @@ LeBronData.load().then(function(d) {
 
   // ---- PPG CHART ----
   drawChart('ppg-chart', 'ppg-tooltip', scoring, 'ppg', 'PPG', '#C9A84C');
+  addChartNotes('ppg-chart', [
+    { year: 2007, text: '首次总决赛，个人表现进入联盟核心叙事。' },
+    { year: 2012, text: '迈阿密首冠，失败后的技术与心理转折。' },
+    { year: 2016, text: '1-3逆转勇士，数据成为城市记忆。' },
+    { year: 2023, text: '超越贾巴尔，得分曲线抵达历史高点。' }
+  ]);
 
   // ---- TOTAL POINTS CHART ----
   // Build cumulative data
@@ -58,6 +64,12 @@ LeBronData.load().then(function(d) {
     cumData.push({ year: s.year, ppg: cumTotal, total: s.total });
   });
   drawChart('total-chart', 'total-tooltip', cumData, 'ppg', '累计得分', '#C9A84C', true);
+  addChartNotes('total-chart', [
+    { year: 2004, text: '新秀赛季就站上20分级别。' },
+    { year: 2018, text: '最年轻30000分，长河进入纪录区间。' },
+    { year: 2024, text: '40000分里程碑，前无古人的岸线。' },
+    { year: 2026, text: '传奇仍在继续，数字还没有合上。' }
+  ]);
 
   // ---- MILESTONES ----
   document.getElementById('ms-items').innerHTML = milestones.map(function(m) {
@@ -220,5 +232,17 @@ LeBronData.load().then(function(d) {
     canvas.addEventListener('mouseleave', function() {
       tooltip.style.display = 'none';
     });
+  }
+
+  function addChartNotes(canvasId, notes) {
+    var canvas = document.getElementById(canvasId);
+    if (!canvas || !canvas.parentElement) return;
+    var wrap = canvas.parentElement;
+    var noteWrap = document.createElement('div');
+    noteWrap.className = 'chart-notes';
+    noteWrap.innerHTML = notes.map(function(n) {
+      return '<div class="chart-note"><div class="note-year">' + n.year + '</div><div class="note-text">' + n.text + '</div></div>';
+    }).join('');
+    wrap.insertAdjacentElement('afterend', noteWrap);
   }
 });

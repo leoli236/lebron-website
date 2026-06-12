@@ -38,7 +38,12 @@
         "在逆境中锻造了坚韧性格"
       ],
       "quote": "我妈妈是我认识的最坚强的女人。她从不让我看到她的眼泪。",
-      "mood": "struggle"
+      "mood": "struggle",
+      "chapterLabel": "源头",
+      "shortHook": "一条河从不体面的地方开始，却没有停在那里。",
+      "keyMoment": "阿克伦街区与母亲格洛丽亚",
+      "sceneImage": "https://upload.wikimedia.org/wikipedia/commons/b/b5/LeBron_James_Paris_2009.jpg",
+      "themeColor": "#b85a4b"
     },
     {
       "year": "1999-2003",
@@ -57,7 +62,12 @@
         "被公认为全美最强高中生"
       ],
       "quote": "在我最需要帮助的时候，Walker一家给了我一个家。我永远不会忘记。",
-      "mood": "hope"
+      "mood": "hope",
+      "chapterLabel": "源头",
+      "shortHook": "第一次拥有稳定的家，也第一次看见命运可以被改写。",
+      "keyMoment": "Walker家庭与圣文森特-圣玛丽高中",
+      "sceneImage": "https://upload.wikimedia.org/wikipedia/commons/e/e2/LeBron_vs_Jarvis_Hayes.jpg",
+      "themeColor": "#5f8da8"
     },
     {
       "year": "2003-2010",
@@ -77,7 +87,12 @@
         "两次常规赛MVP(2009,2010)"
       ],
       "quote": "我不是一个得分手，我不是一个传球手，我是一个篮球运动员。",
-      "mood": "struggle"
+      "mood": "struggle",
+      "chapterLabel": "急流",
+      "shortHook": "一座城市把希望交给18岁的少年，河水开始变急。",
+      "keyMoment": "2007首次总决赛与东决48分",
+      "sceneImage": "https://upload.wikimedia.org/wikipedia/commons/f/fd/LeBron_James_18112009_1.jpg",
+      "themeColor": "#b85a4b"
     },
     {
       "year": "2010-2014",
@@ -97,7 +112,12 @@
         "两次常规赛MVP(2012,2013)"
       ],
       "quote": "我做了对自己最好的决定，我不后悔。每个人都有权选择自己的路。",
-      "mood": "triumph"
+      "mood": "triumph",
+      "chapterLabel": "急流",
+      "shortHook": "被燃烧的球衣照亮，也被失败逼成真正的冠军。",
+      "keyMoment": "The Decision与2012首冠",
+      "sceneImage": "https://upload.wikimedia.org/wikipedia/commons/8/89/LeBronJamesDunkingHeat.jpg",
+      "themeColor": "#C9A84C"
     },
     {
       "year": "2014-2018",
@@ -118,7 +138,12 @@
         "2017年场均三双总决赛"
       ],
       "quote": "克利夫兰，这是给你的。我欠你们一个冠军，现在我还了。",
-      "mood": "triumph"
+      "mood": "triumph",
+      "chapterLabel": "入海",
+      "shortHook": "回家不是退路，是把整座城市带到终点线前。",
+      "keyMoment": "2016 1-3逆转与The Block",
+      "sceneImage": "https://upload.wikimedia.org/wikipedia/commons/c/c0/LeBron_James_2018_Cleveland_Cavaliers.jpg",
+      "themeColor": "#C9A84C"
     },
     {
       "year": "2018-2020",
@@ -138,7 +163,12 @@
         "成为史上唯一在三支球队都拿FMVP的球员"
       ],
       "quote": "Mamba out, but his legacy lives on. This one is for you, Kobe.",
-      "mood": "triumph"
+      "mood": "triumph",
+      "chapterLabel": "入海",
+      "shortHook": "在最深的悲伤里，冠军成为一次安静的致敬。",
+      "keyMoment": "2020湖人总冠军与致敬科比",
+      "sceneImage": "https://upload.wikimedia.org/wikipedia/commons/a/a7/LeBron_James_Lakers.jpg",
+      "themeColor": "#C9A84C"
     },
     {
       "year": "2020-2026",
@@ -158,7 +188,12 @@
         "四枚奥运金牌"
       ],
       "quote": "我不只是一个篮球运动员。我要用我的平台改变世界。我来自阿克伦。",
-      "mood": "legacy"
+      "mood": "legacy",
+      "chapterLabel": "回流",
+      "shortHook": "当纪录成为岸线，真正流向远方的是影响力。",
+      "keyMoment": "历史得分王与I PROMISE学校",
+      "sceneImage": "assets/lebron-king-poster.jpg",
+      "themeColor": "#8f7bd1"
     }
   ],
   "stats": {
@@ -398,6 +433,7 @@
   ],
   "images": {
     "childhood": [
+      "assets/lebron-king-poster.jpg",
       "https://upload.wikimedia.org/wikipedia/commons/b/b5/LeBron_James_Paris_2009.jpg",
       "https://upload.wikimedia.org/wikipedia/commons/c/cf/LeBron_James_crop.jpg"
     ],
@@ -453,6 +489,7 @@
       "https://upload.wikimedia.org/wikipedia/commons/1/13/Lebron_James_2022small.jpg"
     ],
     "scoring_record": [
+      "assets/lebron-king-poster.jpg",
       "https://upload.wikimedia.org/wikipedia/commons/9/98/LeBron_James_at_the_2022_NBA_All-Star_Game.jpg",
       "https://upload.wikimedia.org/wikipedia/commons/5/53/LeBron_James%2C_Olympic_Games_2024.jpg",
       "https://upload.wikimedia.org/wikipedia/commons/2/23/LeBron_James%2C_Paris_2024.jpg"
@@ -481,7 +518,7 @@
         "2016年科比退役赛季: 最后对决",
         "2020年湖人夺冠: 致敬科比"
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/LeBron_James_and_Joel_Embiid%2C_Olympic_Games_2024.jpg",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/LeBron_James_vs._Kobe_Bryant.jpg",
       "quote": "Mamba out, but his legacy lives on."
     },
     {
@@ -496,7 +533,7 @@
         "2017总决赛: 勇士4-1骑士",
         "2018总决赛: 勇士4-0骑士"
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/LeBron_James_at_GSW.jpg",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/LeBron_James_and_Steph_Curry_(51914026352).jpg",
       "quote": "我们互相成就了彼此的伟大。"
     },
     {
@@ -511,7 +548,7 @@
         "2018总决赛: 勇士4-0骑士",
         "多次全明星对决"
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/b/bd/LeBron_James_Marcin_Gortat.jpg",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kevin_Durant_confronts_LeBron_James_(2015).jpg",
       "quote": "杜兰特是我面对过的最强对手之一。"
     },
     {
@@ -526,7 +563,7 @@
         "2014总决赛: 马刺4-1热火",
         "多次季后赛交锋"
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/5/54/LeBron_James_%2827848128205%29.jpg",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tim_Duncan_crop.jpg",
       "quote": "邓肯对我说：这个联盟很快就是你的了。"
     },
     {
@@ -541,7 +578,7 @@
         "2012东部决赛: 热火4-3凯尔特人",
         "2014首轮: 热火4-0篮网"
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/LeBron_James_18112009_1.jpg",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Paul_Pierce_LeBron_James.jpg",
       "quote": "皮尔斯让我明白了什么是季后赛的残酷。"
     },
     {
@@ -555,7 +592,7 @@
         "2011年勒布朗场均仅17.8分",
         "诺维茨基场均26分获FMVP"
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/LeBron_James_Magic_preseason.jpg",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dirk_Nowitzki_in_game.jpg",
       "quote": "2011年的失败教会了我什么是真正的冠军心态。"
     },
     {
@@ -569,7 +606,7 @@
         "2024赛季: 多次常规赛对决",
         "约基奇场均三双的全能表现"
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/LeBron_James_and_Joel_Embiid%2C_Olympic_Games_2024.jpg",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/LeBron_James_and_Nikola_Jokic_(51916313683).jpg",
       "quote": "约基奇是我见过最全面的中锋，他改变了篮球。"
     },
     {
@@ -583,7 +620,7 @@
         "2024-25赛季: 雷霆崛起",
         "亚历山大场均30+得分王"
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/LeBron_James%2C_Olympic_Games_2024.jpg",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Shai_Gilgeous-Alexander_(51815871018)_(cropped).jpg",
       "quote": "他准备好了，火炬会传给对的人。"
     },
     {
@@ -597,7 +634,7 @@
         "2023全明星赛: 再次对决",
         "字母哥2021年夺冠: 完成逆袭"
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/b/bf/LeBron_James_-_51959723161_%28cropped%29.jpg",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Giannis_Antetokounmpo_and_LeBron_James_(51915367449).jpg",
       "quote": "勒布朗告诉我，冠军不是靠天赋，而是靠牺牲。"
     }
   ]

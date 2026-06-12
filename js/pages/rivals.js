@@ -18,11 +18,12 @@ LeBronData.load().then(function(d) {
     });
     return '<section class="rival-detail" id="rv-' + i + '">' +
       '<div class="rd-inner">' +
-        '<div class="rd-img" onclick="openLB(\'' + r.image + '\')">' +
-          '<img src="' + r.image + '" alt="' + r.chinese + '" loading="lazy" onerror="this.src=\'data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22400%22><rect fill=%22%23111%22 width=%22400%22 height=%22400%22/><text x=%22200%22 y=%22200%22 fill=%22%23333%22 text-anchor=%22middle%22 font-size=%2240%22>🏀</text></svg>\'">' +
-          '<div class="rd-overlay"><span>🔍 点击放大</span></div>' +
+        '<div class="rd-img" data-file="RIVAL FILE ' + String(i + 1).padStart(2, '0') + '" onclick="openLB(\'' + r.image + '\',\'' + r.chinese + '\')">' +
+          '<img src="' + r.image + '" alt="' + r.chinese + '" loading="lazy" onerror="this.outerHTML=\'<div class=rd-fallback>' + r.chinese + '<span>' + r.name + '</span></div>\'">' +
+          '<div class="rd-overlay"><span>点击放大</span></div>' +
         '</div>' +
         '<div class="rd-content">' +
+          '<div class="rd-index">CASE ' + String(i + 1).padStart(2, '0') + ' / ' + rivals.length + '</div>' +
           '<div class="rd-era">' + r.era + '</div>' +
           '<div class="rd-name">' + r.chinese + '</div>' +
           '<div class="rd-en">' + r.name + '</div>' +

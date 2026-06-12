@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>体验旅程 — 最长的河</title>
+<meta name="description" content="通过选择、点击、滑块与文字输入，沉浸式体验勒布朗·詹姆斯职业生涯的关键时刻。">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/base.css">
 <link rel="stylesheet" href="css/pages/journey.css">
@@ -14,6 +15,13 @@
 <a href="index.html" class="back">← 首页</a>
 <div class="ch-num" id="cn"></div>
 <button class="sound-toggle" id="sound-btn" onclick="toggleSound()">🔊</button>
+<div class="mobile-dock">
+  <a href="index.html">首页</a>
+  <a href="journey.html" class="active">旅程</a>
+  <a href="rivals.html">对手</a>
+  <a href="gallery.html">图集</a>
+  <a href="stats.html">数据</a>
+</div>
 
 <!-- INTRO -->
 <div class="scene intro active" id="s-intro">
@@ -25,6 +33,7 @@
 
 <!-- CHAPTERS -->
 <div id="chs"></div>
+<div class="scroll-hint" id="scroll-hint">完成选择后滚轮继续</div>
 
 <!-- FINAL -->
 <div class="scene final" id="s-final">
@@ -33,6 +42,7 @@
   <div class="f-score" id="fs">0%</div>
   <div class="f-label">与勒布朗的共鸣指数</div>
   <div class="f-text" id="ft"></div>
+  <div class="knowledge-graph" id="kg"></div>
   <div class="f-choices" id="fc"></div>
   <div class="f-actions">
     <button class="btn-outline" onclick="downloadShareCard()">📥 保存分享卡片</button>
